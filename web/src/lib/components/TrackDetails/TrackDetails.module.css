@@ -1,0 +1,43 @@
+.container {
+  background-color: #efefef;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.description {
+  max-width: 800px;
+  line-height: 1.5;
+  padding: 2rem 0 2rem 0;
+}
+
+.description ul {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 800px;
+}
+
+.details img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.trackInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 300px;
+}
+
+.trackInfo dt {
+  font-weight: bold;
+}
+
+.trackInfo a {
+  text-decoration: underline;
+}

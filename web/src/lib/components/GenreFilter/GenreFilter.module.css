@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.select {
+  font-size: 1.25rem;
+}

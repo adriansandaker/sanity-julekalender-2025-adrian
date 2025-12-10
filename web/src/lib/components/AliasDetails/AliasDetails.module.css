@@ -1,0 +1,27 @@
+.container {
+  background-color: #efefef;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container li a {
+  margin-left: 0.5rem;
+  text-decoration: underline;
+}
+
+.container li img {
+  margin-top: 2px;
+}
