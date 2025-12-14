@@ -1,5 +1,7 @@
 import { defineType, defineField } from "sanity";
 
+import DurationInput from "../components/DurationInput";
+
 export const trackType = defineType({
   name: "track",
   title: "Track",
@@ -41,6 +43,9 @@ export const trackType = defineType({
       description: "Varighet på låten (mm:ss)",
       type: "string",
       validation: (rule) => rule.required(),
+      components: {
+        input: DurationInput,
+      }
     }),
     defineField({
       name: "year",
